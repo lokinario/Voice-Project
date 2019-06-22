@@ -27,7 +27,7 @@ def main():
                 time.sleep(0.5)
 
         record_file(AudioFormat.CD, filename=args.filename,
-                    wait=wait, filetype='wave')
+                    wait=wait, filetype='wav')
         print('Press button to hear the recorded sound.')
         board.button.wait_for_press()
 
